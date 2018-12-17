@@ -28,7 +28,7 @@
 
 {% endblock %}
 {% block content %}
-    <div id="primary" class="site-content">
+    <div id="primary" class="site-content-detail">
         <div id="content" role="main">
             {% load_article_detail article False user %}
 
@@ -71,10 +71,4 @@
 
 {% endblock %}
 
-{% block sidebar %}
-    {% with request.user.username|add:'p' as cachekey %}
-        {% cache 36000 sidebar cachekey %}
-            {% load_sidebar user 'p' %}
-        {% endcache %}
-    {% endwith %}
-{% endblock %}
+

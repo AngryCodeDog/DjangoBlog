@@ -1650,13 +1650,18 @@ img#wpstats {
     .site {
         margin: 0 auto;
         max-width: 960px;
-        max-width: 68.571428571rem;
+        max-width: 78.571428571rem;
         overflow: hidden;
     }
 
     .site-content {
         float: left;
         width: 65.104166667%;
+    }
+
+    .site-content-detail {
+        float: left;
+        width: 100%;
     }
 
     body.template-front-page .site-content,
@@ -1667,7 +1672,7 @@ img#wpstats {
 
     .widget-area {
         float: right;
-        width: 26.041666667%;
+        width: 20.041666667%;
     }
 
     .site-header h1,
@@ -1844,12 +1849,12 @@ img#wpstats {
 /* Minimum width of 960 pixels. */
 @media screen and (min-width: 960px) {
     body {
-        background-color: #e6e6e6;
+        background-color: #F9F9F5;
     }
 
     body .site {
         padding: 0 40px;
-        padding: 0 2.857142857rem;
+        padding: 0 5.857142857rem;
         margin-top: 48px;
         margin-top: 3.428571429rem;
         margin-bottom: 48px;
